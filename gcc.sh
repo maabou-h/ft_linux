@@ -3,9 +3,9 @@
 cd $LFS/sources
 
 ### CHANGE GCC VERSION TO 6.3
-tar xvjf gcc-5.2.0.tar.bz2
+tar xvjf gcc-6.3.0.tar.bz2
 
-cd gcc-5.2.0
+cd gcc-6.3.0
 
 tar -xf ../gmp-6.0.0a.tar.xz
 mv -v gmp-6.0.0a gmp
