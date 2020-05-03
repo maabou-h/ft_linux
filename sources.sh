@@ -3,9 +3,7 @@
 mkdir -v $LFS/sources
 chmod -v a+wt $LFS/sources
 
-wget --no-check-certificate https://raw.githubusercontent.com/maabou-h/ft_linux/master/wget-list
-
-wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
+scp -r foo@192.168.1.85:~/ftlinux/tars $LFS/sources/
 
 mkdir -v $LFS/tools
 
